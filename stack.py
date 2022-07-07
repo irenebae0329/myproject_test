@@ -5,7 +5,6 @@ class stack:
     def push(self, item: object):
         self.items.append(item)
     def pop(self):
-         print("pop an item")
          return self.items.pop()
 
     def peek(self):
